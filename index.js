@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const dotenv = require('dotenv');
 dotenv.config();
 const port = 4000;
-const API =`mongodb+srv://jadhavmrunal2109:${process.env.MONGODB_PASSWORD}@cluster2.lxltldl.mongodb.net/Taskmanage?retryWrites=true&w=majority`;
+const API =`mongodb+srv://jadhavmrunal2109:${process.env.MONGODB_PASSWORD}@cluster21.ijolygo.mongodb.net/?retryWrites=true&w=majority`;
 
 mongoose.set('strictQuery', false);
 
